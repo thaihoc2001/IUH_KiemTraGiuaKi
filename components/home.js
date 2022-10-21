@@ -115,16 +115,16 @@ export default function Home({ navigation: { navigate } }) {
                             </View>
                         </View>
                     </TouchableOpacity>
-                    <View style={{backgroundColor: '#128F91', width: '50%', marginTop: 10, borderTopStartRadius: 10, borderTopEndRadius: 10, marginStart: 10}}>
+                    <TouchableOpacity style={{backgroundColor: '#128F91', width: '50%', marginTop: 10, borderTopStartRadius: 10, borderTopEndRadius: 10, marginStart: 10}} onPress={() => { navigate('detail') }}>
                         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
                         <Image
-                            source={require('../assets/images/Caramel.png')}
+                            source={require('../assets/images/Cacaramel.png')}
                             style={{ width: 100, height: 150 }}
                         />
                         </View>
                         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
                         <Text style={{ fontWeight: "900", fontSize: 20 }}>
-                            Stabuck Coffee
+                            Stabuck Coffee 2
                         </Text>
                         </View>
                         <View style={{ flexDirection: 'row', justifyContent: 'center'}}>
@@ -138,7 +138,7 @@ export default function Home({ navigation: { navigate } }) {
 
                             </View>
                         </View>
-                    </View>
+                    </TouchableOpacity>
                 </View>
             </View>
         </View>
